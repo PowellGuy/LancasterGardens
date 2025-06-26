@@ -6,10 +6,9 @@ html, body
     /* background-repeat: no-repeat; */
     background-size: cover;
     position: relative;
-    width: 100%;
+    width: 100vw;
     height:100vh;
-    z-index: 0;
-    
+    z-index: 0;   
 }
 
 
@@ -20,8 +19,6 @@ html, body
     z-index: 0;
     height: 100%;
     width: 100%;
-
-
 }
 
 #Pagebackground2
@@ -32,17 +29,12 @@ html, body
     z-index: 0;
     height: 100%;
     width: 100%;
-
-
 }
 
 .card_properties
 { 
   background-color: #E5FFCE;
-  
 }
-
-
 
 .Navbar
 {
@@ -51,7 +43,7 @@ html, body
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("/images/Navbar.png");
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -122,6 +114,43 @@ html, body
     z-index: 1;
 }
 
+#expanded
+{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75%;
+  width: 100%;
+  z-index: 1;
+}
+
+#panel
+{
+  display: flex;
+  flex-direction: row;
+  background-color: #1E2030;
+  width: 50%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  border-style: solid;
+  border-color: white;
+  opacity: 85%;
+}
+
+#panel-top
+{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  height: 30%;
+  width: 100%;
+
+}
 
 #services_container
 {
